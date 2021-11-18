@@ -6,10 +6,10 @@
       selinux:
         state: disabled
 
-    - name: Parar Servico Firewalld
-      systemd:
-        name: firewalld
-        state: stopped
+#    - name: Parar Servico Firewalld
+#      systemd:
+#        name: firewalld
+#        state: stopped
 
 #    - name: Add repository
 #      yum_repository:
