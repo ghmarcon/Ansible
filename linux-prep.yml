@@ -11,16 +11,11 @@
         name: firewalld
         state: stopped
 
-#    - name: Parar Servico Firewalld
-#      systemd:
-#        name: firewalld
-#        state: stopped
-
-#    - name: Add repository
-#      yum_repository:
-#      name: epel
-#      description: EPEL YUM repo
-#      baseurl: https://download.fedoraproject.org/pub/epel/$releasever/$basearch/
+    - name: Add repository
+      yum_repository:
+        name: epel
+        description: EPEL YUM repository
+        baseurl: https://download.fedoraproject.org/pub/epel/$releasever/$basearch/
 
 #    - name: Instalar Biblioteca Epel
 #     dnf:
