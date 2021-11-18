@@ -22,13 +22,13 @@
 #     name: epel-releasegit commit -m "first commit"
 #     state: latest
 
-    - name: Instalar pacote Htop
-      dnf:
-      name: htop
-      state: latest
+#    - name: Instalar pacote Htop
+#      dnf:
+#      name: htop
+#      state: latest
 
-    - name: Atualizando arquivo de hosts
-      template:
-        src=/etc/hosts
-        dest=/etc/hosts
+#    - name: Atualizando arquivo de hosts
+#      template:
+#        src=/etc/hosts
+#        dest=/etc/hosts
 
